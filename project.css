@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.logo{
+    width: 60px;
+}
+
+.hero{
+    height: 600px;
+    background-size: cover;
+    background-position:center;
+}
+.hero-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.about-info{
+    display: grid;
+    grid-template-columns: 140px 30px auto;
+    gap: 10px;
+}
+.box-skill{
+    width: 170px;
+    height: 150px;
+    border: 1px solid red;
+background-color: #fff;
+}
+/* .about-skills{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+} */
+.about-icon-1{
+    color: rgba(117, 78, 249, 0.8);
+}
+
+.box-skill:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* .text-1{
+    margin: auto;
+} */
+.my-services{
+    background-color: whitesmoke;
+}
+
+.services-card{max-width: 350px;
+    background-color: #fff;
+    border-radius: 10px !important;
+    height: 300px;
+}
+
+.service-icon{
+    color: rgba(117, 78, 249, 0.8);
+}
+.services-card:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.my-download{
+    height: 400px;
+    background-size: cover;
+}
+.download-overlay{
+    background-color: rgba(117, 78, 249, 0.7);
+}
+.my-works{
+    background-color: whitesmoke;
+}
+
+/* .my-works-2{
+    max-width: 100% !important;
+} */
+
+
+/* .works-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+} */
+.in-touch-section{
+    background-color: aliceblue;
+}
+.in-touch-box{
+    max-width: 350px;
+    height: 200px;
+    background-color: #fff;
+}
+.touch-box-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+}
+.touch-icon{
+    color: rgba(117, 78, 249, 0.8);
+}
+.in-touch-box:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.message-box{
+    height: 120px;
+}
+/* .name-box{
+    padding-left: 170px;
+} */
+/* .form-btn{
+    padding-left: 170px;} */
+   .form-btn-2{ background-color: #754Ef9 !important;
+}
+.map{
+    max-width: 350;
+}
+ .footer-section{
+    background-color: #152136;
+}
+.copy-footer{
+    background-color: #1c2940;
+}
+
+.map-box{
+    width: 75%;
+    height: 420px;
+    border: 10px solid #fff;
+}
